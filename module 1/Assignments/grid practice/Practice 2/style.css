@@ -1,0 +1,42 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 15px;
+    grid-template-areas: "rd rd rd rd" " bl bl gr gr" " bl bl pl pl1";
+}
+
+#red {
+    background-color: red;
+    grid-area: rd;
+}
+
+#blue {
+    background-color: blue;
+    grid-area: bl;
+}
+
+#green {
+    background-color: green;
+    grid-area: gr;
+}
+
+#purple {
+    background-color: purple;
+    grid-area: pl;
+}
+
+#purple1 {
+    background-color: purple;
+    grid-area: pl1;
+}
+
+#grid>div {
+    border-radius: 10px;
+}

@@ -1,0 +1,181 @@
+.france {
+    padding: 33.33%;
+    background-color: white;
+    position: relative;
+}
+
+.france::before {
+    content: "";
+    width: 33.33%;
+    height: 100%;
+    background-color: #0055a4;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.france::after {
+    content: "";
+    width: 33.33%;
+    height: 100%;
+    background-color: #EF4135;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.germany li {
+    height: 200px;
+    list-style-type: none;
+}
+
+.germany li:nth-child(1) {
+    background-color: black;
+}
+
+.germany li:nth-child(2) {
+    background-color: red;
+}
+
+.germany li:nth-child(3) {
+    background-color: yellow;
+}
+
+.madagascar li {
+    list-style-type: none;
+    height: 200px;
+    margin-left: 5.5cm;
+}
+
+.madagascar li:nth-child(1) {
+    background-color: red;
+}
+
+.madagascar li:nth-child(2) {
+    background-color: seagreen;
+}
+
+.switzerland {
+    background: red;
+    position: relative;
+    height: 400px;
+    width: 600px;
+}
+
+.switzerland::before {
+    content: "";
+    position: absolute;
+    background: white;
+    height: 250px;
+    width: 80px;
+    left: calc(50% - 40px);
+    top: 75px;
+}
+
+.switzerland::after {
+    content: "";
+    position: absolute;
+    background: white;
+    width: 250px;
+    height: 80px;
+    left: calc(50% - 125px);
+    top: calc(50% - 40px);
+}
+
+.sweden {
+    background-color: royalblue;
+    position: relative;
+    padding: 30%;
+}
+
+.sweden::before {
+    content: "";
+    position: absolute;
+    background-color: gold;
+    height: 100%;
+    width: 80px;
+    left: 275px;
+    top: 0px;
+}
+
+.sweden::after {
+    content: "";
+    position: absolute;
+    background-color: gold;
+    width: 100%;
+    height: 80px;
+    left: 0px;
+    top: 240px;
+}
+
+.gambia li {
+    list-style-type: none;
+}
+
+.gambia li:nth-child(1) {
+    background-color: red;
+    height: 200px;
+}
+
+.gambia li:nth-child(2) {
+    background-color: white;
+    height: 50px;
+}
+
+.gambia li:nth-child(3) {
+    background-color: darkblue;
+    height: 100px;
+}
+
+.gambia li:nth-child(4) {
+    background-color: white;
+    height: 50px;
+}
+
+.gambia li:nth-child(5) {
+    background-color: forestgreen;
+    height: 200px;
+}
+
+.japan {
+    padding: 33.33%;
+    background-color: white;
+    position: relative;
+}
+
+.japan::before {
+    content: "";
+    width: 40%;
+    height: 60%;
+    position: absolute;
+    background-color: #C70025;
+    top: 20%;
+    left: 30%;
+    border-radius: 50%;
+}
+
+.niger1 {
+    background-color: tomato;
+    height: 250px;
+}
+
+.niger2 {
+    background-color: white;
+    height: 250px;
+}
+
+.circle {
+    content: "";
+    width: 15%;
+    height: 15%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    background-color: tomato;
+    border-radius: 50%;
+}
+
+.niger3 {
+    background-color: limegreen;
+    height: 250px;
+}
