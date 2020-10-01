@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    font-size: 0px;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#flex {
+    border: 0;
+    display: flex;
+    flex-flow: column;
+    flex-wrap: nowrap;
+}
+
+#rose {
+    height: 100px;
+    width: 100%;
+    background-color: #F5C6D6;
+    margin-bottom: 10px;
+}
+
+#pink1 {
+    height: 100px;
+    background-color: #EE2E84;
+    width: 472.5px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#pink2 {
+    height: 100px;
+    background-color: #EE2E84;
+    width: 472.5px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#pink3 {
+    height: 100px;
+    background-color: #EE2E84;
+    width: 472.5px;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+#pink4 {
+    height: 100px;
+    background-color: #EE2E84;
+    width: 472.5px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+#blue1 {
+    height: 100px;
+    background-color: #85CFD8;
+    width: 955px;
+    margin-bottom: 10px;
+    float: right;
+}
+
+#blue2 {
+    height: 100px;
+    background-color: #85CFD8;
+    width: 955px;
+    margin-bottom: 10px;
+}
+
+#green1 {
+    height: 100px;
+    background-color: #8DC63F;
+    width: 1339px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+#orange {
+    height: 100px;
+    background-color: #E76E34;
+    width: 571px;
+    float: right;
+}
+
+@media only screen and (max-width: 768px) {
+    #flex {
+        border: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    #rose {
+        height: 100px;
+        width: 100%;
+        background-color: #F5C6D6;
+        margin-bottom: 10px;
+    }
+    #pink1 {
+        height: 100px;
+        background-color: #EE2E84;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    #pink2 {
+        height: 100px;
+        background-color: #EE2E84;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    #pink3 {
+        height: 100px;
+        background-color: #EE2E84;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    #pink4 {
+        height: 100px;
+        background-color: #EE2E84;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    #blue1 {
+        height: 100px;
+        background-color: #85CFD8;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    #blue2 {
+        height: 100px;
+        background-color: #85CFD8;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    #green1 {
+        height: 100px;
+        background-color: #8DC63F;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    #orange {
+        height: 100px;
+        background-color: #E76E34;
+        width: 100%;
+    }
+}

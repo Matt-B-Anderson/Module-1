@@ -1,0 +1,4 @@
+function isDead() { const enemyHp = 10; const playerHp = 10; const enemyDamage = Math.floor(Math.random() * 10) + 1; const newEHp = Math.abs(playerDamage - enemyHp); const newPHp = Math.abs(enemyDamage - playerHp); if (enemyDamage === 10) { console.log("You
+bravely face " + enemies[index] + " even after producing such a week attack, and they attack with such speed that the next thing you know is the dusk has claimed you; you never wake from your dreams again. YOU ARE DEAD! GAME OVER!"); win = true; } else
+{ console.log("You attack, and deal " + playerDamage + " damage. Your foe has " + newEHp + " healh left, and is not yet defeated; infact that are in shock at how weak you are."); console.log("After mocking you " + enemies[index] + " attacks you and does
+" + enemyDamage + "." + "Your remaining health is " + newPHp); choice = readLine.question("What will you do? Fight? or Run?"); console.log(choice); return newPHp;

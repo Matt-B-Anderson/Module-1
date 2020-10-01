@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    font-size: 0px;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    border: 5px solid white;
+    height: 100px;
+    display: inline-block;
+}
+
+.rose {
+    width: 100vw;
+    background-color: #F5C6D6;
+}
+
+.pink {
+    background-color: #EE2E84;
+    width: 25vw;
+}
+
+.blue {
+    background-color: #85CFD8;
+    width: 50vw;
+}
+
+.green {
+    background-color: #8DC63F;
+    width: 70vw;
+}
+
+.orange {
+    background-color: #E76E34;
+    width: 30vw;
+}
+
+@media only screen and (max-width: 768px) {
+    .rose {
+        width: 100vw;
+    }
+    .pink {
+        width: 100vw;
+    }
+    .blue {
+        width: 100vw;
+    }
+    .green {
+        width: 100vw;
+    }
+    .orange {
+        width: 100vw;
+    }
+}
